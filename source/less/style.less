@@ -1,0 +1,93 @@
+@import "blocks/normalize";
+@import "./variables";
+
+@import "./font.less";
+@import "blocks/page-header";
+@import "blocks/main-nav";
+@import "blocks/page-footer";
+@import "blocks/site-list";
+@import "blocks/contact";
+@import "blocks/footer-contacts";
+@import "blocks/app";
+@import "blocks/slogan";
+@import "blocks/advantages";
+@import "blocks/info";
+@import "blocks/more";
+@import "blocks/container__wrapper";
+@import "blocks/photos-top";
+@import "blocks/gallery";
+@import "blocks/post";
+@import "blocks/post-filter";
+@import "blocks/form-top";
+@import "blocks/form-box";
+@import "blocks/base";
+@import "blocks/form";
+@import "blocks/progress";
+@import "blocks/filter";
+@import "blocks/data";
+@import "blocks/complex";
+@import "blocks/system";
+@import "blocks/description";
+@import "blocks/page-adress";
+@import "blocks/page-map";
+@import "blocks/bullits";
+@import "blocks/price";
+@import "blocks/tariff";
+@import "blocks/components";
+@import "blocks/range";
+@import "blocks/border";
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: @font-size;
+  line-height: @line-height;
+  color: @grey;
+}
+
+.img {
+  min-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.button {
+  //background-color: @button-background;
+ // color: @button-color;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  display: block;
+}
+ /* &:hover,
+  &:focus {
+    background-color: #5eaa2f;
+    cursor: pointer;
+  }
+
+  &:active {
+    background-color: #5eaa2f;
+    color: rgba(255, 255, 255, 0.3);
+  }
+}*/
+
+a {
+  text-decoration: none;
+}
